@@ -2,6 +2,6 @@ version: '2'
 services:
   ats:
     image: tjhorlacher/ats-ubuntu
-    container_name: ats
+    container_name: ats-ubuntu
     ports:
       - "8080:8080"
