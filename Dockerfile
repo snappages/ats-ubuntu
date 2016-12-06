@@ -25,7 +25,7 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN chmod 0755 /docker-entrypoint.sh && chown -R nobody:nogroup /etc/trafficserver
 
-EXPOSE 8080 8083
+EXPOSE 8080
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 

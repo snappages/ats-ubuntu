@@ -1,6 +1,6 @@
 version: '2'
 services:
-  ats:
+  ats-ubuntu:
     image: tjhorlacher/ats-ubuntu
     container_name: ats-ubuntu
     ports:
